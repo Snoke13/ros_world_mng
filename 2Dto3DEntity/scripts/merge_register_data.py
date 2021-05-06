@@ -130,7 +130,7 @@ class merge_register_data:
             with self.mergeProcessMng_lock:
                 self.mergeProcessMngForGrasp.reset_buffers()
                 self.mergeProcessMng= self.mergeProcessMngForGrasp
-        
+        return []
 
     def _check_and_process(self,):
         rospy.loginfo("[merge_register_data_node] THREAD - _check_and_process started")

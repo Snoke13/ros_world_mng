@@ -1,6 +1,6 @@
 # rosservice call /search_Entity_in_room '{"room":"Kitchen","category_filter":["TABLE","CHAIR"],"min_confidence_filter":0.0}'
 string room
-# use '*' fro all object
+# use '*' for all object
 string[] category_filter
 # user None for all
 time last_update_filter
