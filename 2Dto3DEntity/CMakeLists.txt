@@ -51,3 +51,4 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 # ROS nodes
 add_executable(convert_2d_to_3d src/convert_2d_to_3d.cpp) 
 target_link_libraries(convert_2d_to_3d ${catkin_LIBRARIES})
+add_dependencies(${PROJECT_NAME} ${PROJECT_NAME}_generate_messages_cpp)
