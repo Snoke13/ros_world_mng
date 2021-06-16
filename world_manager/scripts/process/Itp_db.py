@@ -17,13 +17,13 @@ if __name__ == '__main__':
         # dao.add_geo_object("Pringles_2","Itp",3.2851,2.46,0,50,type_name="Kitchen",orient_x=0.0,orient_y=-0.0,orient_z=0.7068252,orient_w=0.7073883)
 
         """Points d'interet RoboCup"""
-        dao.add_geo_object("Room1","Itp",1.0,0.5,0,50,type_name="Room1")
-        dao.add_geo_object("Room2","Itp",1.34,3.5,0,50,type_name="Room2")
-        dao.add_geo_object("GreenBac","Itp",2.42,-0.6,0,50,type_name="GreenBac",orient_x=0.0,orient_y=-0.0,orient_z=-0.7068252,orient_w=0.7073883)
-        dao.add_geo_object("Plate","Itp",1.78,-0.26,0,50,type_name="Plate",orient_x=0.0,orient_y=-0.0,orient_z=-0.7068252,orient_w=0.7073883)
-        dao.add_geo_object("Perception_1","Itp",0.4,0.3,0,50,type_name="Perception_1",orient_x=0.0,orient_y=-0.0,orient_z=0.9238787,orient_w= 0.3826855)
-        dao.add_geo_object("Perception_2","Itp",1.9,0.104,0,50,type_name="Perception_2",orient_x=0.0,orient_y=-0.0,orient_z=0.999,orient_w= 0.0000463)
-        dao.add_geo_object("Perception_3","Itp",1.99,3.43,0,50,type_name="Perception_2",orient_x=0.0,orient_y=-0.0,orient_z=0.9238787,orient_w= 0.3826855)
+        dao.add_geo_object("Room1","Itp",1.0,0.5,0,50,type_name="Itp")
+        dao.add_geo_object("Room2","Itp",1.34,3.5,0,50,type_name="Itp")
+        dao.add_geo_object("GreenBac","Itp",2.42,-0.6,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=-0.7068252,orient_w=0.7073883)
+        dao.add_geo_object("Plate","Itp",1.78,-0.26,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=-0.7068252,orient_w=0.7073883)
+        dao.add_geo_object("Perception_1","Itp",0.4,0.3,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.9238787,orient_w= 0.3826855)
+        dao.add_geo_object("Perception_2","Itp",1.9,0.104,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.9226898,orient_w= 0.3855431)
+        dao.add_geo_object("Perception_3","Itp",2.25,3.75,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.7068252,orient_w= 0.7073883)
 
     except Exception as err:
         print(err)

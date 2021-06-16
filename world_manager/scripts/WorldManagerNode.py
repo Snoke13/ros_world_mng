@@ -95,7 +95,7 @@ class WorldManagerNode:
                 for obj in obj_list:
                     br.sendTransform((obj['x'], obj['y'], obj['z']),
                                      (obj['orient_x'], obj['orient_y'],obj['orient_z'],obj['orient_w']),
-                                     rospy.Time(0),
+                                     rospy.Time.now(),
                                      str(obj['id'])+'_TF',
                                      "map")
             time.sleep(self._broadcastTfPeriod)
