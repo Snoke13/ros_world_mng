@@ -28,6 +28,7 @@ if __name__ == '__main__':
         dao.add_geo_object("Perception_3_3","Itp",1.65,3.45,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.3826834,orient_w= 0.9238796)
         dao.add_geo_object("Right_Person","Itp",0.82,4.0,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.9999997,orient_w= 0.0007963)
         dao.add_geo_object("Left_Person","Itp",0.82,2.9,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.9999997,orient_w= 0.0007963)
+        dao.add_geo_object("NAMO_Observ","Itp",2.55,1.4,0,50,type_name="Itp",orient_x=0.0,orient_y=-0.0,orient_z=0.7071068,orient_w= 0.7071068)
 
     except Exception as err:
         print(err)
